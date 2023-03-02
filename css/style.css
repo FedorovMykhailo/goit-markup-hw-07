@@ -1010,6 +1010,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  justify-content: flex-start;
   gap: var(--row-indent) var(--column-indent);
 }
 
