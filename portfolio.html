@@ -22,7 +22,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
   <body>
     <header class="header">
       <div class="container nav-container">
-        <!--Navigation-->
         <nav class="nav">
           <a class="nav-logo link" href="./index.html"
             ><span class="span-logo">Web</span>Studio</a
@@ -40,6 +39,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               <a class="nav-link link" href="#">Contacts</a>
             </li>
           </ul>
+          <button
+            type="button"
+            class="header-mobile-btn js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="header-mobile-icon" width="32" height="22">
+              <use href="./images/icons.svg#mob_menu"></use>
+            </svg>
+          </button>
         </nav>
         <address class="address">
           <ul class="address-list list">
@@ -86,9 +95,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/banking_app_interface_concept.jpg"
+                    srcset="
+                      ./images/portfolio/banking_app_interface_concept_360.jpg 360w,
+                      ./images/portfolio/banking_app_interface_concept_396.jpg 396w,
+                      ./images/portfolio/banking_app_interface_concept_720.jpg 720w,
+                      ./images/portfolio/banking_app_interface_concept_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/banking_app_interface_concept_396.jpg"
                     alt="Application interface"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -111,9 +127,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/cashless_payment.jpg"
+                    srcset="
+                      ./images/portfolio/cashless_payment_360.jpg 360w,
+                      ./images/portfolio/cashless_payment_396.jpg 396w,
+                      ./images/portfolio/cashless_payment_720.jpg 720w,
+                      ./images/portfolio/cashless_payment_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/cashless_payment_396.jpg"
                     alt="Cashless payment with phone"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -135,9 +158,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/mediation_app.jpg"
+                    srcset="
+                      ./images/portfolio/mediation_app_360.jpg 360w,
+                      ./images/portfolio/mediation_app_396.jpg 396w,
+                      ./images/portfolio/mediation_app_720.jpg 720w,
+                      ./images/portfolio/mediation_app_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./immediation_app_396.jpg"
                     alt="Notebook and phone with mediation application"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -158,9 +188,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/taxi_service.jpg"
+                    srcset="
+                      ./images/portfolio/taxi_service_360.jpg 360w,
+                      ./images/portfolio/taxi_service_396.jpg 396w,
+                      ./images/portfolio/taxi_service_720.jpg 720w,
+                      ./images/portfolio/taxi_service_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/taxi_service_396.jpg"
                     alt="Driver on car"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -181,9 +218,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/screen_illustration.jpg"
+                    srcset="
+                      ./images/portfolio/screen_illustration_360.jpg 360w,
+                      ./images/portfolio/screen_illustration_396.jpg 396w,
+                      ./images/portfolio/screen_illustration_720.jpg 720w,
+                      ./images/portfolio/screen_illustration_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/screen_illustration_396.jpg"
                     alt="Phone with screen illustraion"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -206,9 +250,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/online_courses.jpg"
+                    srcset="
+                      ./images/portfolio/online_courses_360.jpg 360w,
+                      ./images/portfolio/online_courses_396.jpg 396w,
+                      ./images/portfolio/online_courses_720.jpg 720w,
+                      ./images/portfolio/online_courses_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/online_courses_396.jpg"
                     alt="Smiling girl with phone"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -229,9 +280,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/instagram_stories_concept.jpg"
+                    srcset="
+                      ./images/portfolio/instagram_stories_concept_360.jpg 360w,
+                      ./images/portfolio/instagram_stories_concept_396.jpg 396w,
+                      ./images/portfolio/instagram_stories_concept_720.jpg 720w,
+                      ./images/portfolio/instagram_stories_concept_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/instagram_stories_concept.j_396pg"
                     alt="Instagram stories concept pages"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -254,9 +312,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/organic_food.jpg"
+                    srcset="
+                      ./images/portfolio/organic_food_360.jpg 360w,
+                      ./images/portfolio/organic_food_396.jpg 396w,
+                      ./images/portfolio/organic_food_720.jpg 720w,
+                      ./images/portfolio/organic_food_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/organic_food_396.jpg"
                     alt="Woman carries bag with organic food"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -277,9 +342,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 <div class="image-overlay">
                   <img
                     class="project-image"
-                    src="./images/portfolio/fresh_coffe.jpg"
+                    srcset="
+                      ./images/portfolio/fresh_coffe_360.jpg 360w,
+                      ./images/portfolio/fresh_coffe_396.jpg 396w,
+                      ./images/portfolio/fresh_coffe_720.jpg 720w,
+                      ./images/portfolio/fresh_coffe_792.jpg 792w
+                    "
+                    sizes="(min-width: 1200px) 360px, (min-width: 768px) 356px, (min-width: 480px) 396px, 100wh"
+                    src="./images/portfolio/fresh_coffe_396.jpg"
                     alt="Cup with coffee"
-                    width="360"
+                    width="396"
                     height="300"
                   />
                   <div class="project-overlay">
@@ -388,5 +460,101 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
         </div>
       </div>
     </footer>
+
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="modal-btn menu-toggle js-close-menu" type="button">
+        <svg class="modal-close" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <address class="mobile-address">
+        <ul class="mobile-address-list list">
+          <li class="mobile-ddress-item">
+            <a
+              class="mobile-address-link-mail link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mobile-address-item">
+            <a class="mobile-address-link link" href="tel:+11(000)111-11-11"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-social-list list">
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://instagram.com"
+            rel="noopener noreferrer"
+            aria-label=""
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            aria-label=""
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            aria-label=""
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            aria-label=""
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- modal script -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>

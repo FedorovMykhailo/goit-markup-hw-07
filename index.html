@@ -22,7 +22,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
   <body>
     <header class="header">
       <div class="container nav-container">
-        <!--Navigation-->
         <nav class="nav">
           <a class="nav-logo link" href="./index.html"
             ><span class="span-logo">Web</span>Studio</a
@@ -38,6 +37,17 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               <a class="nav-link link" href="#">Contacts</a>
             </li>
           </ul>
+          <button
+            type="button"
+            class="header-mobile-btn js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="close menu button"
+          >
+            <svg class="header-mobile-icon" width="32" height="22">
+              <use href="./images/icons.svg#mob_menu"></use>
+            </svg>
+          </button>
         </nav>
         <address class="address">
           <ul class="address-list list">
@@ -131,6 +141,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="we-are-item">
               <img
                 class="we-are-image"
+                srcset="
+                  ./images/what_we_do/display@1x.jpg 1x,
+                  ./images/what_we_do/display@2x.jpg 2x
+                "
                 src="./images/what_we_do/display.jpg"
                 alt="Monitor with images"
                 width="360"
@@ -140,6 +154,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="we-are-item">
               <img
                 class="we-are-image"
+                srcset="
+                  ./images/what_we_do/phone@1x.jpg 1x,
+                  ./images/what_we_do/phone@2x.jpg 2x
+                "
                 src="./images/what_we_do/phone.jpg"
                 alt="Phone screen"
                 width="360"
@@ -149,6 +167,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="we-are-item">
               <img
                 class="we-are-image"
+                srcset="
+                  ./images/what_we_do/notebook@1x.jpg 1x,
+                  ./images/what_we_do/notebook@2x.jpg 2x
+                "
                 src="./images/what_we_do/notebook.jpg"
                 alt="Hand with phone near notebook"
                 width="360"
@@ -166,6 +188,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="
+                  ./images/team/mark@1x.jpg 1x,
+                  ./images/team/mark@2x.jpg 2x
+                "
                 src="./images/team/mark.jpg"
                 alt="Mark's Photo"
                 width="264"
@@ -180,7 +206,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://instagram.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Mark's instagram link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -192,7 +218,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://twitter.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Mark's twitter link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -204,7 +230,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://facebook.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Mark's facebook link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -216,7 +242,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://linkedin.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Mark's linkedin link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -229,6 +255,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="
+                  ./images/team/tom@1x.jpg 1x,
+                  ./images/team/tom@2x.jpg 2x
+                "
                 src="./images/team/tom.jpg"
                 alt="Tom's Photo"
                 width="264"
@@ -243,7 +273,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://instagram.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Tom's instagram link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -255,7 +285,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://twitter.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Tom's twitter link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -267,7 +297,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://facebook.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Tom's facebook link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -279,7 +309,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://linkedin.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Tom's linkedin link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -292,6 +322,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="
+                  ./images/team/camila@1x.jpg 1x,
+                  ./images/team/camila@2x.jpg 2x
+                "
                 src="./images/team/camila.jpg"
                 alt="Camila's Photo"
                 width="264"
@@ -306,7 +340,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://instagram.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Camilas's instagram link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -318,7 +352,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://twitter.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Camilas's twitter link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -330,7 +364,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://facebook.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Camilas's facebook link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -342,7 +376,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://linkedin.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Camilas's linkedin link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -355,6 +389,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
             <li class="team-item">
               <img
                 class="team-image"
+                srcset="
+                  ./images/team/daniel@1x.jpg 1x,
+                  ./images/team/daniel@2x.jpg 2x
+                "
                 src="./images/team/daniel.jpg"
                 alt="Daniel's Photo"
                 width="264"
@@ -369,7 +407,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://instagram.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Daniel's instagram link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -381,7 +419,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://twitter.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Daniel's twitter link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
@@ -393,7 +431,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://facebook.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Daniel's facebook link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
@@ -405,7 +443,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                       class="team-social-link link"
                       href="https://linkedin.com"
                       rel="noopener noreferrer"
-                      aria-label=""
+                      aria-label="Daniel's linkedin link"
                     >
                       <svg class="team-social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -424,42 +462,67 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
           <h2 class="customers-title title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
-                ><svg class="customer-logo" width="104" height="56">
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company1 link"
+                href="#"
+              >
+                <svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo1"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company2 link"
+                href="#"
                 ><svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo2"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company3 link"
+                href="#"
                 ><svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo3"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company4 link"
+                href="#"
                 ><svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo4"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company5 link"
+                href="#"
                 ><svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo5"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
-              <a class="customer-logo-link link" href="#"
+              <a
+                class="customer-logo-link link"
+                rel="noopener noreferrer"
+                aria-label="Company6 link"
+                href="#"
                 ><svg class="customer-logo" width="104" height="56">
                   <use href="./images/icons.svg#icon-Logo6"></use>
                 </svg>
@@ -488,7 +551,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 class="footer-social-link link"
                 href="https://instagram.com"
                 rel="noopener noreferrer"
-                aria-label=""
+                aria-label="instagram link"
               >
                 <svg class="footer-social-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-instagram"></use>
@@ -500,7 +563,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 class="footer-social-link link"
                 href="https://twitter.com"
                 rel="noopener noreferrer"
-                aria-label=""
+                aria-label="twitter link"
               >
                 <svg class="footer-social-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-twitter"></use>
@@ -512,7 +575,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 class="footer-social-link link"
                 href="https://facebook.com"
                 rel="noopener noreferrer"
-                aria-label=""
+                aria-label="facebook link"
               >
                 <svg class="footer-social-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-facebook"></use>
@@ -524,7 +587,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 class="footer-social-link link"
                 href="https://linkedin.com"
                 rel="noopener noreferrer"
-                aria-label=""
+                aria-label="linkedin link"
               >
                 <svg class="footer-social-icon" width="16" height="16">
                   <use href="./images/icons.svg#icon-linkedin"></use>
@@ -652,7 +715,106 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
         </form>
       </div>
     </div>
+
+    <!-- mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        class="modal-btn menu-toggle js-close-menu"
+        aria-label="close modal button"
+        type="button"
+      >
+        <svg class="modal-close" width="8" height="8">
+          <use href="./images/icons.svg#close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="#">Contacts</a>
+        </li>
+      </ul>
+
+      <address class="mobile-address">
+        <ul class="mobile-address-list list">
+          <li class="mobile-ddress-item">
+            <a
+              class="mobile-address-link-mail link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mobile-address-item">
+            <a class="mobile-address-link link" href="tel:+11(000)111-11-11"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-social-list list">
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://instagram.com"
+            rel="noopener noreferrer"
+            aria-label="instagram link"
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://twitter.com"
+            rel="noopener noreferrer"
+            aria-label="twitter link"
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            aria-label="facebook link"
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-social-item">
+          <a
+            class="team-social-link link"
+            href="https://linkedin.com"
+            rel="noopener noreferrer"
+            aria-label="linkedin link"
+          >
+            <svg class="team-social-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <!-- modal script -->
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
